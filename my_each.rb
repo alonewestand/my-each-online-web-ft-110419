@@ -4,5 +4,5 @@ def my_each(arg)
     yield(arg[count])
     count += 1
   end
-  collection
+  arg
 end
